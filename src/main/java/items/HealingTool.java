@@ -1,12 +1,13 @@
 package items;
 
-public class HealingTool {
+public class HealingTool extends Item{
 
     private HealingType type;
     private int healAmount;
     private int durability;
 
-    public HealingTool(HealingType type, int healAmount) {
+    public HealingTool(String name, HealingType type, int healAmount) {
+        super (name);
         this.type = type;
         this.healAmount = healAmount;
         this.durability = type.getDurability();

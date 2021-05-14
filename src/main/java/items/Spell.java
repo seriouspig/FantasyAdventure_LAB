@@ -1,11 +1,12 @@
 package items;
 
-public class Spell {
+public class Spell extends Item{
 
     private SpellType spell;
     private int damage;
 
-    public Spell(SpellType spell, int damage) {
+    public Spell(String name, SpellType spell, int damage) {
+        super (name);
         this.spell = spell;
         this.damage = damage;
     }

@@ -1,11 +1,12 @@
 package items;
 
-public class Weapon {
+public class Weapon extends Item{
 
     private WeaponType type;
     private int damage;
 
-    public Weapon(WeaponType type, int damage) {
+    public Weapon(String name, WeaponType type, int damage) {
+        super (name);
         this.type = type;
         this.damage = damage;
     }

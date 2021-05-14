@@ -9,7 +9,7 @@ public enum EnemyType {
     SLIME(20,10),
     OGRE(50,30),
     TROLL(60,40),
-    DRAGON(80,50),
+    DRAGON(200,50),
     SHREK(20,10),
     SKELETON(5,10),
     ZOMBIEPIGMAN(15,10),
